@@ -48,7 +48,7 @@ These are the edges that have survived real trading, not just backtests.
 - DOGE RSI above 90: SHORT, 65.6% win rate
 - SOL RSI fades below 30: 50% win rate, avoid this
 
-**Funding Rate Edge** - When funding is deeply negative, the market is paying you to hold shorts. Current February 2026 environment: deeply negative across the board.
+**Funding Rate Edge** - When funding is deeply negative, the market is paying you to hold shorts. Current March 2026 environment: deeply negative across the board.
 
 **What Does Not Work** - SOL intraday RSI fades: 50% WR. XRP any direction: 37.6% WR. High leverage with fixed percentage stops: gets eaten by candle noise every time.
 
@@ -87,5 +87,26 @@ At 25x leverage, the difference between maker and taker fees is whether a strate
 - [BloFin Official X](https://x.com/BloFin_Official) - Exchange announcements and updates
 
 ---
+
+---
+
+## March 3, 2026 — New: Funding Farm Signals
+
+Added to the Beast Pack today: automatic funding rate extreme detection.
+
+When funding exceeds 10 percent per 8h on BloFin perpetuals, the system auto-generates FIRE signals:
+- LONG signal when funding is negative (shorts paying longs)
+- SHORT signal when funding is positive (longs paying shorts)
+- Score 7.0 to 9.5 based on rate magnitude
+- Deduped daily, logged to signal history
+
+Today live: POWER -47 percent funding per 8h. Executor in signal-only mode.
+
+Resources:
+- BloFin funding rates: app.blofin.com
+- CoinGlass funding data: coinglass.com
+- BloFin copy trading: partner.blofin.com/d/Vision33X
+
+
 
 Star this if it helped. Contributions welcome via PR.
