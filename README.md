@@ -61,6 +61,7 @@ These are the edges that have survived real trading, not just backtests.
 - [V33X-RSI-Scanner](https://github.com/visioneth/V33X-RSI-Scanner) - Real-time RSI extreme scanner across 360+ pairs
 - [V33X-Whale-Shield](https://github.com/visioneth/V33X-Whale-Shield) - Multi-chain whale movement tracker
 - [V33X-Pine-Scripts](https://github.com/visioneth/V33X-Pine-Scripts) - Free TradingView strategies (RSI Extreme, EDGE, Webhook)
+- [ChartScout](https://chartscout.io/) - Free crypto chart pattern. 
 
 **Contract sizes on BloFin (common mistake area):**
 BTC = 0.001 per contract. ETH = 0.01. SOL = 1. XRP = 100. DOGE = 1000. Using wrong sizes is how people accidentally size 100x larger than intended.
@@ -90,7 +91,7 @@ At 25x leverage, the difference between maker and taker fees is whether a strate
 
 ---
 
-## March 3, 2026 — New: Funding Farm Signals
+## March 3, 2026 â€” New: Funding Farm Signals
 
 Added to the Beast Pack today: automatic funding rate extreme detection.
 
@@ -106,6 +107,7 @@ Resources:
 - BloFin funding rates: app.blofin.com
 - CoinGlass funding data: coinglass.com
 - BloFin copy trading: partner.blofin.com/d/Vision33X
+
 
 
 
